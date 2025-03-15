@@ -8,5 +8,5 @@ All code used to reproduce https://aclanthology.org/2024.emnlp-main.53.pdf
 2. Preprocess data with Albert Tokenizer: Yuchen add dataset factory details here
 3. Preprocess Morph data by running all notebooks in morph folder(use aann_corruption.csv for morph_enc_no_aann and use train.sents for morph_enc_unablated)
 4. Train models: Use train scripts: Yuchen
-5. Train Unigram models: Hyeonjeong
+5. Train Unigram models by running unigram.ipynb. All of the trained models are in the unigram folder.
 6. Compute slor scores: Use Slor Scripts: Yuchen
