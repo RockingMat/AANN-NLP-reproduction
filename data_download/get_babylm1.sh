@@ -17,9 +17,9 @@ cat $DIR/babylm_dev/* > $DIR/dev.txt
 cat $DIR/babylm_test/* > $DIR/test.txt
 
 # sentence-tokenize all files using src/sentence_tokenize.py
-python src/sentence_tokenize.py --source $DIR/train_100M.txt --target $DIR/train.sents&
-python src/sentence_tokenize.py --source $DIR/dev.txt --target $DIR/dev.sents&
-python src/sentence_tokenize.py --source $DIR/test.txt --target $DIR/test.sents
+python ./sentence_tokenize.py --source $DIR/train_100M.txt --target $DIR/train.sents&
+python ./sentence_tokenize.py --source $DIR/dev.txt --target $DIR/dev.sents&
+python ./sentence_tokenize.py --source $DIR/test.txt --target $DIR/test.sents
 wait
 
 # remove the original dirs
